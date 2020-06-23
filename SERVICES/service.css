@@ -1,0 +1,317 @@
+*,html,body
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;   
+    }
+
+/* header*/
+.header{
+    position:fixed;
+    width: 100%;
+    height: auto;
+   
+}
+.mynavbar{ 
+    padding-left: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+}
+.icons p{
+    width:4%;    
+    height:6%;
+    margin-top:2%;
+    font-size: 2.3rem;
+    float: right;
+    z-index: 4;
+    position: relative;    
+    color:crimson;   
+}
+.mynavbar ul{ 
+    padding-top: 18px;
+    list-style: none;
+}
+
+.mynavbar li{
+    display: inline;
+    padding-left:15px;
+    
+}
+
+.mynavbar li .square{
+    height:42px;
+    width:42px;
+    background-color: crimson;
+    margin-left: -35%;
+}
+
+.mynavbar .def-btn{
+    width:fit-content;
+    color:crimson;
+    background-color: transparent;
+    padding:4px;
+    font-size:large;
+    font-weight: bold;
+    font-family: sans-serif;
+    z-index: 4;
+}
+
+/* header ends */
+
+/* OUR SERVICE begins */
+.our-services{
+    padding-top: 10%;
+}
+
+.serviceheading{
+    color:crimson;
+    font-size: 4.2rem;
+    text-align: left;
+    font-weight: 800;
+}
+
+.servicetext{
+    font-size: 1.1rem;
+}
+
+/* OUR SERVICE ends */
+
+/* SERVICE-1 BEGINS */
+
+.service1cont{
+    background-image: url('img/b1.png'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.service1heading{
+    font-size: 3rem;
+    color: #F40D69; 
+    font-weight: 700;
+}
+
+.service1img{
+    background-image: url('img/1.png');
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    margin-top: 8%;
+}
+
+/* SERVICE1 ENDS */
+
+/* SERVICE2 BEGINS */
+
+.service2img{
+    background-image: url('img/2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.service2cont{
+    background-image: url('img/b2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.service2head{
+    font-size: 2.4rem;
+    color: #F40D69; 
+    font-weight: 700;
+}
+
+/* SERVICE2 ENDS */
+
+/* SERVICE3 BEGINS */
+.service3cont{
+    background-image: url('img/b3.png'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.service3head{
+    font-size: 2.5rem;
+    color: #F40D69; 
+    font-weight: 700;
+}
+
+.service3img{
+    background-image: url('img/3.png');
+    background-repeat: no-repeat;
+    background-size:100% 75%;
+    margin-top: 5%;
+}
+/* SERVICE3 ends */
+
+/* CONSULT begins */
+
+.consultimg{
+    background-image:url('img/consult.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+.consulttext{
+    font-size:3.8rem;
+    color: #F40D69;
+    font-weight: 700; 
+    letter-spacing: 0.6rem;
+}
+
+/* CONSULT ENDS */
+
+/* Footer begins */
+.footer{
+    width: 100%;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-image: url(img/bck3.png);
+    background-size: cover;
+    
+}
+/* separating clouds*/
+.one-cloud{
+    position: absolute;
+     width: 70%;
+     margin-top:-15%;
+     margin-left: -20%;
+     z-index: 3;
+     
+ }
+ 
+ .one1-cloud{
+    position: absolute;
+    width: 70%;
+    margin-top: -19%;
+    right:0%;
+    z-index: 3;
+}
+.one2-cloud{
+    position: absolute;
+    width: 70%;
+    margin-top: -17%;
+    margin-left:20%;
+    z-index: 3;
+}
+
+.last
+{
+    width: 100%;
+    position: relative;
+    
+    
+}
+ .useful-links{ position: relative;
+     margin-top: 70%;
+     margin-left: 30%;
+
+}
+.useful-links h3{
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    border-bottom-style:outset;
+    border-bottom-width: 0.1em;
+    border-bottom-color: rgb(255, 40, 83);
+}
+.useful-links li{
+   width: 100%;
+}
+.left{
+    width: 50%;
+    float: left;
+}
+.links{
+    color:black;
+}
+.right{
+    width: 40%;
+    float: right;
+}
+.links1{
+    color: black;
+}
+.stay{ position: relative;
+    margin-top: 70%;
+    margin-left: 60%;
+    text-align: center;
+}
+.stay h3{
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    border-bottom-style:outset;
+    border-bottom-width: 0.1em;
+    border-bottom-color: rgb(255, 40, 83);
+}
+.stay h5{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.stay input{
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.stay button{ margin-top: 20px;
+    height: 35px;
+    background-color:crimson;
+    color: blanchedalmond;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+}
+.follow{ position: relative;
+    margin-top: 70%;
+    margin-left: 90%;
+    
+    
+}
+.follow h3{ text-align: center;
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    border-bottom-style:outset;
+    border-bottom-width: 0.1em;
+    border-bottom-color: rgb(255, 40, 83);
+}
+.social{
+    margin-top:10%;
+}
+.icon{
+    width: 10%;
+    padding-left: 5px;
+}
+.icon img{
+width: 15%;
+}
+
+.follow .left{ 
+    margin-top: 10%;
+    color: rgb(248, 42, 83);
+    width: 33%;
+  
+}
+.follow .right{
+    margin-top: 10%;
+    width: 67%;
+    border-left-style:outset ;
+    border-left-width: 0.1em;
+    border-left-color:rgb(255, 40, 83) ;
+}
+.follow .right .fa{
+    font-size: 14px;
+}
+.copyright{
+    margin-top: 30px;
+    text-align: center;
+}
+/* Footer ends */
