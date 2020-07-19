@@ -1,0 +1,177 @@
+.update-svg {
+    height: 5.5rem;
+    width: 5.5rem;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  /*Change the color or dashboard navigation icon on hover*/
+.sidebar-head{
+    font-weight:600;
+    font-size:19px;
+    color:#F40D69;
+    margin-left:-7%;
+  }
+
+  .square{
+      height:32px;
+      max-width:32px;
+      background-color: #F40D69;
+      border:0;
+  }
+
+  .therapy-head{
+      padding-top:40%;
+      font-size:18px;
+      font-weight:bold;
+      color:black;
+  }
+  .list-unstyled {padding-top: 20px;
+    padding-left: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  .list-unstyled h6 {
+    color: black;
+  }
+
+  .list-unstyled li:hover h6 {
+    color: #F40D69;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  
+  /*---------------------------------------*/
+  /*SIDEBAR LEFT*/
+  
+  #sidebar { 
+    height: 100%;
+    left: 0px;
+    padding-left: 20px;
+    position: fixed;
+    z-index: 1;
+    background-image: linear-gradient(to right,#FFA195 , #FFAA9D );
+    border-radius: 0 50px 50px 0 !important; 
+    box-shadow: 3px 10px 4px 3px rgba(0, 0, 0, 0.5) !important;
+    
+    transition: all 0.6s cubic-bezier(0.945, 0.02, 0.27, 0.665);
+    transform-origin: bottom left;
+  }
+  .navbar {
+    padding: 15px 10px;
+    
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  #new-navbar-left--cstm {
+    background-color: #4d45b2 !important;
+    position: fixed;
+    margin-left: -10px;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-top: 10px;
+    z-index: 100;
+  }
+  /*COLLAPSING SIDE BAR AND SHOWING TOGGLE*/
+  #sidebarCollapse {
+    width: 2.5rem;
+    height: 1.5rem;
+    background: inherit;
+    cursor: pointer;
+    z-index: inherit;
+  }
+  .navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+   z-index: inherit;
+  }
+  
+  #sidebarCollapse span:first-of-type {
+    transform: rotate(45deg) translate(2px, 2px);
+  }
+  #sidebarCollapse span {
+   
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+    transition: all 0.8s cubic-bezier(0.81, -0.33, 0.345, 1.375);
+    transition-delay: 0.2s;
+  }
+  
+  #sidebarCollapse span:nth-of-type(2) {
+    /* second one is not visible */
+    opacity: 0;
+  }
+  #sidebarCollapse span:last-of-type {
+    /* rotate third one */
+    transform: rotate(-45deg) translate(1px, -1px);
+  }
+  #sidebarCollapse.active span {
+    /* no rotation */
+    transform: none;
+    /* all bars are visible */
+    opacity: 1;
+    margin: 5px auto;
+  }
+  /*----------------------------------------------------*/
+  
+  
+  #sidebar {
+    
+    background-color: #ffffff !important;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 9px 0px 7px -9px rgba(0, 0, 0, 0.75);
+    transition: all 0.6s cubic-bezier(0.945, 0.02, 0.27, 0.665);
+    transform-origin: center left; /* Set the transformed position of sidebar to center left side. */
+  }
+  /*When side bar is hidden use the following transformation*/
+  #sidebar.active {
+    margin-left: -220px;
+    transform: rotateY(100deg); /* Rotate sidebar vertically by 100 degrees. */
+  }
+  
+  @media (max-width: 888px) {
+    /* Reversing the behavior of the sidebar: 
+       it'll be rotated vertically and off canvas by default, 
+       collapsing in on toggle button click with removal of 
+       the vertical rotation.   */
+    #sidebar {
+      margin-left: -220px;
+      transform: rotateY(100deg);
+    }
+    #sidebar.active {
+      margin-left: 0;
+      transform: none;
+    }
+  
+    /* Reversing the behavior of the bars: 
+       Removing the rotation from the first,
+       last bars and reappear the second bar on default state, 
+       and giving them a vertical margin */
+    #sidebarCollapse span:first-of-type,
+    #sidebarCollapse span:nth-of-type(2),
+    #sidebarCollapse span:last-of-type {
+      transform: none;
+      opacity: 1;
+      margin: 5px auto;
+    }
+  
+    /* Removing the vertical margin and make the first and last bars rotate again when the sidebar is open, hiding the second bar */
+    #sidebarCollapse.active span {
+      margin: 0 auto;
+    }
+    #sidebarCollapse.active span:first-of-type {
+      transform: rotate(45deg) translate(2px, 2px);
+    }
+    #sidebarCollapse.active span:nth-of-type(2) {
+      opacity: 0;
+    }
+    #sidebarCollapse.active span:last-of-type {
+      transform: rotate(-45deg) translate(1px, -1px);
+    }
+  }
