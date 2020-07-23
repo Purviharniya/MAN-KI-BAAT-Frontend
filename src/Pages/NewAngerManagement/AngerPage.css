@@ -28,6 +28,19 @@ a{
     border-radius: 30px;
 }
 
+.card1-body{
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.card2-body{
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+
 .anger-card-two{
     background-image: linear-gradient(to right,#FFA195 , #FFAA9D );
     border:0;
@@ -40,10 +53,9 @@ a{
 }
 
 .anger-btn-one{
-        
         right:0;
-        bottom: 0px;
-        z-index: 1;
+        bottom: 0;
+        position: absolute;
         background-color: #FFA195;   
         border-radius: 30px;
         padding-bottom: 10px;
@@ -51,6 +63,8 @@ a{
         box-shadow:5px 5px 5px 5px rgb(78, 76, 76);
         font-weight: 900;
 }
+
+
 
 .btn-link{
     background-color: #c4c3f5;
@@ -64,28 +78,48 @@ a{
 
 .anger-btn-two{
     right:0;
-    margin-left:10%;
-    bottom: 0px;
+    bottom: 0;
+    position: absolute;
     z-index: 1;
-    background-color: #8F8CF7;
+    background-color: #8F8CF7;  
     color:white !important;   
     border-radius: 30px;
     padding-bottom: 10px;
     padding-top:10px;
+    padding-left: 30px;
+    padding-right: 30px;
     box-shadow:5px 5px 5px 5px rgb(78, 76, 76);
     font-weight: 900;
 }
 
+.card3-body{
+    padding-top:10%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.card4-body{
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.card5-body{
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-right:4%;
+}
+
 .img-3-1{
-    height:10rem;
+    min-height:10rem;
 }
 
 .img-3-2{
-    height:100%;
+    min-height:10rem;
 }
 
 .img-3-3{
-    height:100%;
+    min-height:10rem;
 }
 
 @media screen and (max-width: 767px) {
