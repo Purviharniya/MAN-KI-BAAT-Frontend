@@ -1,0 +1,16 @@
+.btn-search-hw{
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.searchbar-hw{
+    border:0;
+    outline:none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.searchbar-hw:focus{
+    outline:none;
+}
