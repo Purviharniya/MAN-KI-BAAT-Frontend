@@ -1,0 +1,54 @@
+.indicate li{
+    height:10px;
+    width:10px;
+    margin-right:5px;
+    border-radius: 50%;
+    background-color: #3d4aa7 !important;
+}
+
+.control-car1 .carousel-control-prev-icon{
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.control-car2 .carousel-control-next-icon{
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.control-car1 .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 2rem;
+    font-weight:bold;
+    color: transparent;
+  }
+
+  
+.control-car2 .carousel-control-next-icon:after {
+    content: '>';
+    font-size: 2rem;
+    font-weight:bold;
+    color: transparent;
+  }
+
+  .team-imgs{
+    border-radius:20px;
+  }
+
+  .head-name{
+    font-weight:bold;
+    color:#5a5d63;
+    font-size: 1.2rem;
+  }
+
+  .head-design{
+    font-weight:bold;
+    color:#ed257a;
+    font-size: 1.1rem;
+  }

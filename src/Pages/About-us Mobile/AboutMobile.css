@@ -1,0 +1,39 @@
+.ab-back-m{
+    background-image: url('./images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: helvetica;
+}
+
+.abm-head{
+    color:#ed257a;
+    font-family: helvetica;
+    font-weight:bold;
+}
+
+.font-build{
+    color:#8992a3;
+    font-family: helvetica;
+    font-size: 1rem;
+}
+
+.meet-team-head{
+    color:#5361ca;
+    font-weight:bold;
+}
+.carousel-1-abm{
+    background-image: url(./images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pro-text-m{
+    font-weight:bold;
+    color:#ed257a;
+}
+
+.font-build-quote{
+    font-weight:900;
+    color:#5a5d63;
+    font-size:1.1rem;
+}
