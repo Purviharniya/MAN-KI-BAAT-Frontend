@@ -1,8 +1,8 @@
 .indicate li{
-    height:10px;
-    width:10px;
-    margin-right:5px;
-    border-radius: 50%;
+    height:10px !important;
+    width:10px !important;
+    margin-right:5px !important;
+    border-radius: 50% !important;
     background-color: #3d4aa7 !important;
 }
 
