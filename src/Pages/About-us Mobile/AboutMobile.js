@@ -33,7 +33,7 @@ export const AboutMobile= () =>{
                 </div>
                 <div className="text-left font-build-quote pt-2">{quote}</div>
                 <div className="text-right pt-2 pb-5">
-                    <img src={require("./images/Group 29.png")} className="mr-3" height="50%" width="50%" alt="promise"/>
+                    <img src={require("../../assets/about-mobile/Group 29.png")} className="mr-3" height="50%" width="50%" alt="promise"/>
                 </div>
             </div>
         </div>
