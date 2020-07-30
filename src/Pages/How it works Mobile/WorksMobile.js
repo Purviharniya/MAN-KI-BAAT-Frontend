@@ -1,8 +1,5 @@
 import React from 'react';
 import './WorksMobile.css'
-import {Nav, Navbar} from "react-bootstrap";
-import { faUserCircle,faBars,faSearch} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import MobileHeader from '../../components/MobileHeader'
 
 class WorksMobile extends React.Component{
@@ -31,7 +28,7 @@ class WorksMobile extends React.Component{
                     </div>
                     <div className="col-5 hwm-c2 text-center">
                         <div className="card-2-pad">
-                            <img src={require('./images/Group 15.png')} className="h-down-img img-responsive" alt="download"/> <br/>
+                            <img src={require('../../assets/how-it-works-mobile/Group 15.png')} className="h-down-img img-responsive" alt="download"/> <br/>
                             <div className="download-title text-light pt-2">DOWNLOAD</div>
                         </div>
                     </div>
@@ -40,7 +37,7 @@ class WorksMobile extends React.Component{
                 <div className="row no-gutters pt-3 text-light">
                     <div className="col-5 hwm-c2 text-center">
                         <div className="card-3-pad">
-                            <img src={require('./images/Group 16.png')} className="h-down-img img-responsive" alt="download"/> <br/>
+                            <img src={require('../../assets/how-it-works-mobile/Group 16.png')} className="h-down-img img-responsive" alt="download"/> <br/>
                             <div className="download-title text-light pt-2">ENROLL</div>
                         </div>
                     </div>
@@ -72,7 +69,7 @@ class WorksMobile extends React.Component{
                     </div>
                     <div className="col-5 hwm-c2 text-center">
                         <div className="card-6-pad">
-                            <img src={require('./images/Group 17.png')} className="h-down-img img-responsive" alt="download"/> <br/>
+                            <img src={require('../../assets/how-it-works-mobile/Group 17.png')} className="h-down-img img-responsive" alt="download"/> <br/>
                             <div className="download-title text-light pt-2">LOGIN</div>
                         </div>
                     </div>
@@ -81,7 +78,7 @@ class WorksMobile extends React.Component{
                 <div className="row no-gutters pt-3 text-light">
                     <div className="col-5 hwm-c2 text-center">
                         <div className="card-7-pad">
-                        <img src={require('./images/Group 18.png')} className="h-down-img img-responsive" alt="download"/><br/>
+                        <img src={require('../../assets/how-it-works-mobile/Group 18.png')} className="h-down-img img-responsive" alt="download"/><br/>
                         <div className="download-title text-light pt-2">QUESTIONNAIRE</div>
                         </div>
                     </div>
