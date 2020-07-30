@@ -1,0 +1,52 @@
+.background-ser-mo{
+    background-image: url('../../assets/service-mobile/main/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 10%;
+}
+
+.service-img-m{
+    width:85%;
+}
+
+.our-s-m-h{
+    font-family: helvetica;
+    font-weight:800;
+    font-size:2.5rem;
+    padding-right:10%;
+    color:#ed257a;
+}
+
+.text-liner{
+    padding-right:10%;
+    padding-left:10%;
+}
+
+.lines-img{
+    width:95%;
+    padding-top:10%;
+}
+
+.button-grp-s{
+    padding-left: 20%;
+    padding-right:20%;
+}
+
+.btn-1-s{
+    background-image: url('../../assets/service-mobile/main/Path\ 46.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 3%;
+    padding-bottom:3%;
+    color:white;
+}
+
+.white-con{
+    background-image:url('../../assets/service-mobile/main/Path\ 45.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    min-height:50%;
+    margin-top: -20%;
+    position:absolute;
+}

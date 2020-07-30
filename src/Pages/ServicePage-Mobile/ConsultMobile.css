@@ -1,0 +1,54 @@
+.background-consult-mo{
+    background-image: url('../../assets/service-mobile/main/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 10%;
+}
+
+.consult-img-m{
+    width:95%;
+}
+
+.con-a-doc-mh{
+    font-family: helvetica;
+    font-weight:700;
+    font-size:2rem;
+    padding-right:10%;
+    padding-top: 5%;
+    color:#ed257a;
+}
+
+.con-text-liner{
+    padding-right:10%;
+    padding-left:10%;
+}
+
+.consult-lines-img{
+    width:100%;
+    padding-top:10%;
+}
+
+.button-con-m{
+    padding-left: 20%;
+    padding-right:20%;
+}
+
+.btn-1-s-consult{
+    background-image: url('../../assets/service-mobile/consult/Path\ 7.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 3%;
+    padding-bottom:3%;
+    font-size:1.3rem;
+    color:white;
+}
+
+.white-con-con{
+    background-image:url('../../assets/service-mobile/consult/Path\ 6.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    min-height:50%;
+    margin-top: -20%;
+    position:absolute;
+}
