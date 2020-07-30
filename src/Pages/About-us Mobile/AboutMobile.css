@@ -1,7 +1,7 @@
 .ab-back-m{
-    background-image: url('./images/Rectangle\ 1.png');
+    background-image: url('../../assets/about-mobile/Rectangle\ 1.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     font-family: helvetica;
 }
 
@@ -22,7 +22,7 @@
     font-weight:bold;
 }
 .carousel-1-abm{
-    background-image: url(./images/Rectangle\ 6.png);
+    background-image: url('../../assets/about-mobile/Rectangle\ 6.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
