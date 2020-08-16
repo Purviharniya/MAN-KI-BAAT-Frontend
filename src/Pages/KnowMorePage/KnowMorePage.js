@@ -6,7 +6,7 @@ import './KnowMorePage.css';
 class KnowMorePage extends Component {
     render() {
         return (
-            <div>
+            <div className="know-more-ab-us">
                 <Header/>
                 <section className="aboutus">
           <div className="container">
@@ -40,11 +40,11 @@ class KnowMorePage extends Component {
             </div>
           </div>
         </section>
-        <div className="upper-wave1">
-          <img src={require('./images/upper.png')} alt="wave1" />
+        <div>
+          <img src={require('./images/upper.png')} alt="wave1"  className="upper-wave1"/>
         </div>
-        <div className="lower-wave1">
-          <img src={require('./images/lower1.png')} alt="wave2"/>
+        <div >
+          <img src={require('./images/lower1.png')} alt="wave2" className="lower-wave1"/>
         </div>
         <section className="promise">
           <div className="container">
@@ -66,14 +66,14 @@ class KnowMorePage extends Component {
         </section>
         <section className="howitworks">
           {/*section seprating clouds*/}
-          <div className="cloud-one">
-            <img src={require('./images/cloud.png')} alt="cloudy" />
+          <div >
+            <img src={require('./images/cloud.png')} alt="cloudy" className="cloud-one" />
           </div>
-          <div className="cloud-two">
-            <img src={require('./images/cloud1.png')} alt="cloudy"/>
+          <div >
+            <img src={require('./images/cloud1.png')} alt="cloudy" className="cloud-two"/>
           </div>
-          <div className="cloud-three">
-            <img src={require('./images/cloud.png')} alt="cloudy"/>
+          <div>
+            <img src={require('./images/cloud.png')} alt="cloudy"  className="cloud-three"/>
           </div>
           <div className="row steps-pro">
             <div className="col-12 text-center">
@@ -81,7 +81,7 @@ class KnowMorePage extends Component {
             </div>
           </div>
           <div className="container">
-            <img src={require('./images/howitworks.png')} alt="how-it-works" />
+            <img src={require('./images/howitworks.png')} alt="how-it-works" className="how-works-img-d" />
             <div className="row substeps">
               <div className="col-3" style={{paddingLeft: '4%'}}>
                 DOWNLOAD
