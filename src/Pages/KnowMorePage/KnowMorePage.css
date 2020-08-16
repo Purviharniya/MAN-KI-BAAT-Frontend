@@ -1,13 +1,8 @@
-*,html,body
-    {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: auto;   
-        font-family: Helvetica;
-    }
+
 
 /* ABOUT US */
+
+
 
 .row{
     margin-left: 0px !important;
@@ -52,11 +47,13 @@
     margin-left: 0%;
     margin-top: -5%;
     z-index: 3;
+    width: 100%;
 }
 .lower-wave1{
     position: absolute;
     margin-left: 0%;
     z-index: 3;
+    width:100%;
 }
 
 /* PROMISE BEGINS */
@@ -96,7 +93,6 @@
      margin-top:-15%;
      margin-left: -20%;
      z-index: 3;
-     
  }
  
  .cloud-two{
@@ -120,6 +116,10 @@
     height: 100%;
     position: relative;
     background-attachment: fixed;
+}
+
+.how-works-img-d{
+    width:100%;
 }
 
 .steps-pro{
